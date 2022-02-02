@@ -1,0 +1,40 @@
+body{
+    background-color: #e1e8ec5c;
+    height: 700px;
+    width:100%;
+}
+
+.connexion{
+    display: flex;
+    flex-direction: column;
+    background-color: #28495c;
+    padding: 40px;
+    margin-top: 30px; 
+    border-radius:25px;
+    box-shadow: 3px 3px 20px rgba(40, 41, 44, 0.212);
+    width: 60%;
+
+}
+h1 {
+    font-size:50px; 
+    color:#ffffff; 
+    font-family: 'raleway';
+    text-align:center;
+}
+label{
+    font-size:20px; 
+    color:#ffffff; 
+    font-family: 'raleway';
+    padding-bottom:15px;
+    padding-top:30px;
+}
+input{
+    border: none;
+    height: 25px;
+    border-radius: 100px;
+}
+button{
+    margin: 20px;
+    color:#28495c;
+    background-color: #e1e8ec5c;
+}
