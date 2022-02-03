@@ -7,21 +7,20 @@
 <title> My totool </title>
 </head>
 <body>
-<div class="connexion">
-    <h1>Connectez-vous</h1>
+<div class="forgot">
+    <h1>Nouveau mot de passe</h1>
     <form action="/todolist" method="post">
-        <label for="name">Identifiant :</label>
-        <input type="text" id="name" name="name" required
+        <label for="mail">Adresse mail :</label>
+        <input type="email" id="mail" name="mail" required
         minlength="8" maxlength="30" size="30">
-        <label for="mdp">Mot de passe :</label>
+        <label for="mdp">Nouveau mot de passe :</label>
         <input type="password" id="mdp" name="mdp" required
         minlength="8" maxlength="30" size="30">
         <div class="button">
-            <button type="submit">Connexion</button>
+            <button type="submit">Envoyer la modification</button>
         </div>
     </form>
     <hr>
-    <a href="#">Vous n'avez pas encore de compte? Inscrivez-vous</a>
-    <a href="#">Mot de passe oublié</a>
+    <a href="index.html">Retourner à la page de connexion</a>
 </div>
 </body>

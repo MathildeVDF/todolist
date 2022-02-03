@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale1.0, shrink-to-fit-no">
+    <link rel="stylesheet" type="text/css" href="stylestodo.css">
+    <title> My totool </title>
+</head>
+<body>
+    <div class="choix">
+        <a class="off" href="index.html"><img src="off.png" alt="deconnexion"></a>
+        <h1>Bonjour, Steve</h1>
+        <h2>Bienvenue sur my to tool</h2>
+        <h3>Choisissez votre liste</h3>
+        <div class="liste">
+            <div class="test">
+                <h4>Rangement maison</h4>
+                <p>01/01/2022</p>
+                <a href="#">Voir la liste</a>
+            </div>
+            <div class="test">
+                <h4>Tâches travail</h4>
+                <p>22/01/2022</p>
+                <a href="#">Voir la liste</a>
+            </div>
+            <div class="test">
+                <h4>Liste de courses</h4>
+                <p>01/12/2022</p>
+                <a href="#">Voir la liste</a>
+            </div>
+        </div>
+        <hr>
+        <div class="nouveau">
+            <h3>Ajouter une nouvelle liste</h3>
+            <div class="newtache">
+                <form action="/todolist" method="post">
+                    <label for="titre">Titre :</label>
+                    <input type="text" id="title" name="title" required
+                    minlength="8" maxlength="30" size="30">
+                    <label for="task">Nouvelle tache :</label>
+                    <input type="text" id="task" name="task" required
+                    minlength="8" maxlength="30" size="30">
+                    <div class="button">
+                        <button type="submit">Ajouter cette liste</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
